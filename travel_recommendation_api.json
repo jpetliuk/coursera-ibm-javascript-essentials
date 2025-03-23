@@ -1,0 +1,58 @@
+{
+   "recommendations": [
+      {
+         "id": 1,
+         "name": "Bali Beach",
+         "type": "beach",
+         "location": "Bali, Indonesia",
+         "description": "Pristine white sands and crystal-clear waters make Bali's beaches a paradise for sun lovers and surfers alike. Enjoy breathtaking sunsets, water sports, and beach-side dining.",
+         "imageUrl": "/api/placeholder/600/400",
+         "timeZone": "Asia/Makassar"
+      },
+      {
+         "id": 2,
+         "name": "Maldives Beach Resorts",
+         "type": "beach",
+         "location": "Maldives",
+         "description": "Experience luxury over-water bungalows and private beaches with the softest sand and most vibrant blue waters you've ever seen. Perfect for honeymoons and special occasions.",
+         "imageUrl": "/api/placeholder/600/400",
+         "timeZone": "Indian/Maldives"
+      },
+      {
+         "id": 3,
+         "name": "Angkor Wat",
+         "type": "temple",
+         "location": "Siem Reap, Cambodia",
+         "description": "The largest religious monument in the world, Angkor Wat is a stunning example of Khmer architecture. Explore the vast temple complex with its intricate stone carvings and ancient history.",
+         "imageUrl": "/api/placeholder/600/400",
+         "timeZone": "Asia/Phnom_Penh"
+      },
+      {
+         "id": 4,
+         "name": "Golden Temple",
+         "type": "temple",
+         "location": "Amritsar, India",
+         "description": "The holiest gurdwara of Sikhism, the Golden Temple is a stunning structure surrounded by a sacred pool. Visitors of all faiths are welcome to experience its peaceful atmosphere and community kitchen.",
+         "imageUrl": "/api/placeholder/600/400",
+         "timeZone": "Asia/Kolkata"
+      },
+      {
+         "id": 5,
+         "name": "Japan",
+         "type": "country",
+         "location": "East Asia",
+         "description": "Experience the perfect blend of ancient traditions and cutting-edge technology. From cherry blossoms and historic temples to bustling modern cities, Japan offers unforgettable cultural experiences.",
+         "imageUrl": "/api/placeholder/600/400",
+         "timeZone": "Asia/Tokyo"
+      },
+      {
+         "id": 6,
+         "name": "New Zealand",
+         "type": "country",
+         "location": "Oceania",
+         "description": "A land of breathtaking landscapes, from fjords and mountains to beaches and forests. Perfect for adventure seekers, nature lovers, and Lord of the Rings fans alike.",
+         "imageUrl": "/api/placeholder/600/400",
+         "timeZone": "Pacific/Auckland"
+      }
+   ]
+}

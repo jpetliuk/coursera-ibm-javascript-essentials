@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Wanderlust Travel Recommendations</title>
+      <link rel="stylesheet" href="styles.css" />
+   </head>
+   <body>
+      <!-- Navbar for Home Page -->
+      <nav class="navbar" id="mainNav">
+         <div class="logo">
+            <span>Wanderlust</span>
+         </div>
+         <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About Us</a></li>
+            <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+         </ul>
+         <div class="search-container">
+            <input
+               type="text"
+               id="searchInput"
+               placeholder="Search for beaches, temples, countries..."
+            />
+            <button class="search-btn" id="searchBtn">Search</button>
+            <button class="reset-btn" id="resetBtn">Reset</button>
+         </div>
+      </nav>
+
+      <!-- Home Page Content -->
+      <div id="homePage" class="page">
+         <div class="hero">
+            <div class="hero-content">
+               <h1>Discover Your Next Adventure</h1>
+               <p>
+                  Welcome to Wanderlust, your ultimate guide to finding the
+                  perfect travel destination. Whether you're looking for
+                  relaxing beaches, cultural temples, or exploring new
+                  countries, we have recommendations tailored just for you.
+               </p>
+               <p>Use our search bar above to begin your journey!</p>
+               <div class="social-icons">
+                  <a href="#"><span>📘</span></a>
+                  <a href="#"><span>📱</span></a>
+                  <a href="#"><span>📸</span></a>
+                  <a href="#"><span>📹</span></a>
+               </div>
+            </div>
+         </div>
+
+         <!-- Recommendations Section -->
+         <div
+            class="recommendations container hidden"
+            id="recommendationsSection"
+         >
+            <h2>Travel Recommendations</h2>
+            <div class="loading" id="loadingIndicator">
+               Searching for the perfect destinations...
+            </div>
+            <div class="results-container" id="resultsContainer"></div>
+         </div>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+         <div class="footer-content">
+            <p>Travel with Wanderlust - Your journey begins here</p>
+            <ul class="footer-links">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About Us</a></li>
+               <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <p class="copyright">
+               &copy; 2025 Wanderlust Travel Recommendations. All rights
+               reserved.
+            </p>
+         </div>
+      </footer>
+
+      <script src="script.js"></script>
+   </body>
+</html>
